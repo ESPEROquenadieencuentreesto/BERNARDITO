@@ -16,6 +16,6 @@ APLICACION REAL SEGUN BERNI
 Administracion de redes.
 
 #       Special thanks
-# Waldo may que esta en mi equipo
-# Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
+  Waldo may que esta en mi equipo.
+  Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg.
 
