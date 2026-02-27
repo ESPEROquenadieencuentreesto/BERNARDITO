@@ -1,5 +1,5 @@
 # Mi primer proyecto pijes, esta madre de bernardito esta easy jeje
-Features
+# Features
 
 El uso de datos cambia segun la hora
 
@@ -16,6 +16,6 @@ APLICACION REAL SEGUN BERNI
 Administracion de redes.
 
 #       Special thanks
-# Waldo may que esta en mi equipo jeje
-# Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
+Waldo may que esta en mi equipo jeje
+Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
 
