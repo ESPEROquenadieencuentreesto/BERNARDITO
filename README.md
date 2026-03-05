@@ -24,8 +24,8 @@ Clona el repo en fa we.
 
 Instala las dependencias en chinga: 
 ```
-```
-pip install PySide6 duckdb numpy scipy pyqtgraph
+
+```pip install PySide6 duckdb numpy scipy pyqtgraph --break-system-packages
 ```
 ```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
