@@ -50,7 +50,7 @@ Clona el repo en fa we:
 git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
 ```
 
-Mete a la carpeta del repo:
+Metete a la carpeta del repo:
 ```
 cd BERNARDITO
 ```
