@@ -16,6 +16,20 @@ APLICACION REAL SEGUN BERNI
 
 Administracion de redes.
 
+# Versions
+
+
+# Cómo correr esta madre
+Clona el repo en fa we.
+
+Instala las dependencias en chinga: pip install PySide6 duckdb numpy scipy pyqtgraph.
+
+Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
+
+
+
+
+
 #       Special thanks
 Waldo may que esta en mi equipo jeje
 
