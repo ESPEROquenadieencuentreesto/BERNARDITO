@@ -19,11 +19,23 @@ Administracion de redes.
 # Versions
 
 Python     3.14.3
+
+
 duckdb     1.4.4
+
+
 numpy      2.4.2
+
+
 gcc        15.2.1
+
+
 pyqtgraph  0.14.0
+
+
 PySide6    6.10.2
+
+
 scipy      1.17.1
 
 # Cómo correr esta madre
