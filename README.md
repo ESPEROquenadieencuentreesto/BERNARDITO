@@ -1,5 +1,5 @@
-# Mi primer proyecto pijes, esta madre de bernardito esta easy jeje
-# Features
+# *Mi primer proyecto pijes, esta madre de bernardito esta easy jeje*
+# *Features*
 
 El uso de datos cambia segun la hora
 
@@ -38,7 +38,7 @@ PySide6    6.10.+
 
 scipy      1.17.+
 
-# How to run this bullshit
+# *How to run this bullshit*
 Clona el repo en fa we.
 
 Instala las dependencias en chinga: 
@@ -48,7 +48,7 @@ pip install PySide6 duckdb numpy scipy pyqtgraph
 ```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
-#       Special thanks
+#       *Special thanks*
 Waldo may que esta en mi equipo jeje
 
 Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
