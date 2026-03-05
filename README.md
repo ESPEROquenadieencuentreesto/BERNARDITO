@@ -38,7 +38,7 @@ PySide6    6.10.2
 
 scipy      1.17.1
 
-# Cómo correr esta madre
+# How to run this motherfucker
 Clona el repo en fa we.
 
 Instala las dependencias en chinga: 
