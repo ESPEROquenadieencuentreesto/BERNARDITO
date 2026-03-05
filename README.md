@@ -16,27 +16,27 @@ APLICACION REAL SEGUN BERNI
 
 Administracion de redes.
 
-# Versions
+# *Requirements*
 
-Python     3.14.3
-
-
-duckdb     1.4.4
+Python     3.14.+
 
 
-numpy      2.4.2
+duckdb     1.4.+
 
 
-gcc        15.2.1
+numpy      2.4.+
 
 
-pyqtgraph  0.14.0
+gcc        15.2.+
 
 
-PySide6    6.10.2
+pyqtgraph  0.14.0 o 0.14.+
 
 
-scipy      1.17.1
+PySide6    6.10.+
+
+
+scipy      1.17.+
 
 # How to run this bullshit
 Clona el repo en fa we.
