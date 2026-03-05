@@ -1,6 +1,6 @@
 # *Mi primer proyecto pijes, esta madre de bernardito esta easy jeje*
 
-<img width="1920" height="1080" alt="Capturagithub" src="https://github.com/user-attachments/assets/ab3f844b-95f5-4048-b80f-3c5cc9f90e27" />
+<img width="1920" height="1080" alt="capturagitjaja" src="https://github.com/user-attachments/assets/a01990d9-9493-4772-82af-7da76baa2b26" />
 
 # *Features*
 
