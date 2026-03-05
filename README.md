@@ -50,6 +50,11 @@ Clona el repo en fa we:
 git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
 ```
 
+Mete a la carpeta del repo:
+```
+cd BERNARDITO
+```
+
 Instala las dependencias en chinga: 
 
 ```
