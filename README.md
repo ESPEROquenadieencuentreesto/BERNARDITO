@@ -23,9 +23,11 @@ Administracion de redes.
 Clona el repo en fa we.
 
 Instala las dependencias en chinga: 
-'''bash
+```
+```bash
 pip install PySide6 duckdb numpy scipy pyqtgraph
-
+```
+```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
 
