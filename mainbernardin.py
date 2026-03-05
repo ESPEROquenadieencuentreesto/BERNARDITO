@@ -1,1 +1,30 @@
-print("Hola mundo")
+import sys
+from PySide6.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
+from PySide6.QtGui import QFont
+from PySide6.QtCore import Qt
+
+def main():
+
+    sys.argv += ['-style', 'Fusion']
+    app = QApplication(sys.argv)
+    
+    # Conf de la ventana
+    window = QWidget()
+    window.setWindowTitle('Bernardito Prueba 1')
+    window.setMinimumSize(300, 100)
+    
+    # Layout y Texto
+    layout = QVBoxLayout()
+    label = QLabel(" Vienvenidos chikos! ")
+    fuente = QFont("Firacode Nerd Font", 14, QFont.Bold) 
+    label.setFont(fuente)
+    label.setAlignment(Qt.AlignCenter)
+    
+    layout.addWidget(label)
+    window.setLayout(layout)
+    
+    window.show()
+    sys.exit(app.exec())
+
+if __name__ == "__main__":
+    main()
