@@ -41,6 +41,8 @@ PySide6    6.10.+
 
 scipy      1.17.+
 
+qt-material     2.17 o 2.17.+
+
 # *How to run this bullshit*
 Clona el repo en fa we:
 
@@ -51,7 +53,7 @@ git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
 Instala las dependencias en chinga: 
 
 ```
-pip install PySide6 duckdb numpy scipy pyqtgraph
+pip install PySide6 duckdb numpy scipy pyqtgraph qt-material
 ```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
