@@ -39,7 +39,11 @@ PySide6    6.10.+
 scipy      1.17.+
 
 # *How to run this bullshit*
-Clona el repo en fa we.
+Clona el repo en fa we:
+
+```
+git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
+```
 
 Instala las dependencias en chinga: 
 
