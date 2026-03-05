@@ -1,4 +1,7 @@
 # *Mi primer proyecto pijes, esta madre de bernardito esta easy jeje*
+
+<img width="1920" height="1080" alt="Capturagithub" src="https://github.com/user-attachments/assets/ab3f844b-95f5-4048-b80f-3c5cc9f90e27" />
+
 # *Features*
 
 El uso de datos cambia segun la hora
