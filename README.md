@@ -49,7 +49,44 @@ qt-material     2.17 o 2.17.+
 
 # *HOW TO RUN THIS BULLSHIT*
 
-# LINUX
+## LINUX
+
+### Familia Debian - Ubuntu
+```
+sudo apt update
+sudo apt install git python3
+```
+
+### Familia Fedora - Red Hat
+```
+sudo dnf install git python3
+```
+
+### Familia Arch Linux - Manjaro - EndeavourOS - Garuda Linux- Artix Linux - SteamOS
+```
+sudo pacman -S git python
+```
+
+### Familia openSUSE
+```
+sudo zypper install git python3
+```
+
+### Alpine Linux 
+```
+apk add git python3
+```
+
+### Gentoo 
+```
+emerge --ask dev-vcs/git dev-lang/python
+```
+
+### NixOS
+```
+nix-env -iA nixpkgs.git nixpkgs.python3
+```
+
 Clona el repo en fa we:
 
 ```
@@ -72,7 +109,7 @@ Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 python3 mainbernardin.py
 ```
 
-# WINDOWS
+## WINDOWS
 
 Instala el git para windows we:
 
