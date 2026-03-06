@@ -15,6 +15,6 @@ echo Instalando dependencias en chinguiza..
 py -m pip install -r requirements.txt
 
 echo Ejecutando esta ptm..
-py NetPulse.py
+py PWGNetPulse.py
 
 pause
