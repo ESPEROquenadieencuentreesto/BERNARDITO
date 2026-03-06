@@ -1,4 +1,4 @@
-# *Mi primer proyecto pijes, esta madre de bernardito esta easy jeje*
+# Mi primer proyecto pijes, esta madre de bernardito esta easy jeje
 
 ![WhatsApp Image 2026-03-06 at 9 01 37 AM](https://github.com/user-attachments/assets/dca293d9-16ee-4107-8293-dc76bab27ecb)
 
