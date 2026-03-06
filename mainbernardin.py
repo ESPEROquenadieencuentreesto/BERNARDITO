@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
-from PySide6.QtGui import QFont
+from PySide6.QtGui import QFont, QIcon
 from PySide6.QtCore import Qt
 from qt_material import apply_stylesheet
 
@@ -15,6 +15,9 @@ def main():
     window.setWindowTitle('Bernardito Prueba 1')
     window.setMinimumSize(500, 450)
     
+    window.setWindowIcon(QIcon("calzoskiadulto.jpg"))
+
+
     # Layout y Texto
     layout = QVBoxLayout()
     label = QLabel(" Vienvenidos chikos! ")
