@@ -1,6 +1,6 @@
 # *Mi primer proyecto pijes, esta madre de bernardito esta easy jeje*
 
-<img width="1920" height="1080" alt="captura050326" src="https://github.com/user-attachments/assets/8be96a06-cea7-43a0-b621-ec22c4ff30d2" />
+![WhatsApp Image 2026-03-06 at 9 01 37 AM](https://github.com/user-attachments/assets/dca293d9-16ee-4107-8293-dc76bab27ecb)
 
 
 # *Features*
