@@ -5,4 +5,3 @@ numpy
 scipy
 pyqtgraph
 qt-material
-pip --upgrade

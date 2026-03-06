@@ -10,6 +10,9 @@ if exist %REPO_DIR% (
 echo Clonando el repo en fa..
 git clone %REPO_URL%
 
+echo Esa ptm del pip para actualizarlo antes que las dependencias
+py -m pip install --upgrade pip
+
 cd %REPO_DIR%
 echo Instalando dependencias en chinguiza..
 py -m pip install -r requirements.txt
