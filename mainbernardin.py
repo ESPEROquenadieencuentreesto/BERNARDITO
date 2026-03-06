@@ -1,4 +1,5 @@
 import sys
+import platform
 from PySide6.QtWidgets import QApplication, QLabel, QWidget, QVBoxLayout
 from PySide6.QtGui import QFont, QIcon
 from PySide6.QtCore import Qt
@@ -6,16 +7,21 @@ from qt_material import apply_stylesheet
 
 def main():
 
+    if platform.system() == "Windows":
+        import ctypes
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("bernardin.app")
+    
     sys.argv += ['-style', 'Fusion']
     app = QApplication(sys.argv)
     apply_stylesheet(app, theme='dark_teal.xml')
+
+    app.setWindowIcon(QIcon("calzoskiadulto.jpg"))
 
     # Conf de la ventana
     window = QWidget()
     window.setWindowTitle('Bernardito Prueba 1')
     window.setMinimumSize(500, 450)
     
-    window.setWindowIcon(QIcon("calzoskiadulto.jpg"))
 
 
     # Layout y Texto
