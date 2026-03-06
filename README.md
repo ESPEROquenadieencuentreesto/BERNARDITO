@@ -125,7 +125,7 @@ Ejecuta el main y wacha este pdo:
 py mainbernardin.py
 ```
 
-### Para la hanniela que no es colaborador del repo
+### Actualizar el repo para la hanniela que no es colaborador del repo
 
 Abre el CMD we:
 
