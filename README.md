@@ -47,7 +47,9 @@ scipy      1.17.+
 
 qt-material     2.17 o 2.17.+
 
-# *How to run this bullshit*
+# *HOW TO RUN THIS BULLSHIT*
+
+# LINUX
 Clona el repo en fa we:
 
 ```
@@ -70,8 +72,56 @@ Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 python3 mainbernardin.py
 ```
 
+# WINDOWS
+
+Instala el git para windows we:
+
+[Pagina del git](https://git-scm.com/install/)
+
+Abre el CMD we:
+
+Ejecuta Windows + r, escribe cmd y pulsa ENTER || Abre el buscador y busca simbolo del sistema y ejecutalo sin ser administrador.
+
+Crea una cuenta de github y guarda tu usuuario y correo para el siguiente paso:
+
+```
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu@email.com"
+```
+
+Clone el repo en fa:
+
+```
+git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
+```
+
+Metete a la carpeta del repo:
+
+```
+cd BERNARDITO
+```
+
+Instala las dependencias en chinga:
+
+```
+py -m pip install PySide6 duckdb shiboken6 numpy scipy pyqtgraph qt-material
+```
+
+Ejecuta el main y wacha este pdo:
+
+```
+py mainbernardin.py
+```
+
+* [Ir a las Características](#features)
+* [Ir a los Requisitos](#requirements)
+* [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
+* [Ir a Linux](#Linux)
+* [Ir a Windows](#Windows)
+
 #       *Special thanks*
 Waldo may que esta en mi equipo jeje
 
 Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
 
+Su humilde servidor Pedrito jeje
