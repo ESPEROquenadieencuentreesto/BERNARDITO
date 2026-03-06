@@ -28,7 +28,7 @@ def main():
     # Conf de la ventana
     window = QWidget()
     window.setWindowTitle('PWGNetPulse')
-    window.setMinimumSize(500, 450)
+    window.setMinimumSize(550, 500)
     
 
 
