@@ -14,6 +14,7 @@ cd %REPO_DIR%
 echo Instalando dependencias en chinguiza..
 py -m pip install -r requirements.txt
 
+echo Ejecutando esta ptm..
 py mainbernardin.py
 
 pause
