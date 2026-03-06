@@ -23,7 +23,7 @@ def main():
             color: #ffffff;
         }
     """)
-    app.setWindowIcon(QIcon("calzoskiadulto.jpg"))
+    app.setWindowIcon(QIcon("iconhub.jpg"))
 
     # Conf de la ventana
     window = QWidget()
