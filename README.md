@@ -3,6 +3,13 @@
 ![WhatsApp Image 2026-03-06 at 9 01 37 AM](https://github.com/user-attachments/assets/dca293d9-16ee-4107-8293-dc76bab27ecb)
 
 
+* [Ir a las Características](#features)
+* [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
+* [Ir a instalacion en Linux](#linux)
+* [Ir a instalacion en  Windows](#windows)
+* [Ir a actualizar en windows](#actualizar-el-repo-para-la-hanniela-que-no-es-colaborador-del-repo)
+
+
 # *Features*
 
 El uso de datos cambia segun la hora
@@ -145,8 +152,9 @@ actualizar.bat
 
 * [Ir a las Características](#features)
 * [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
-* [Ir a Linux](#Linux)
-* [Ir a Windows](#Windows)
+* [Ir a instalacion en Linux](#linux)
+* [Ir a instalacion en  Windows](#windows)
+* [Ir a actualizar en windows](#actualizar-el-repo-para-la-hanniela-que-no-es-colaborador-del-repo)
 
 #       *Special thanks*
 Waldo may que esta en mi equipo jeje
