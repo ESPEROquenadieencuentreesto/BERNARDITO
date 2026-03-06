@@ -87,7 +87,7 @@ emerge --ask dev-vcs/git dev-lang/python
 nix-env -iA nixpkgs.git nixpkgs.python3
 ```
 
-Clona el repo en fa we:
+### Luego clona el repo en fa we:
 
 ```
 git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
