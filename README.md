@@ -85,6 +85,7 @@ python3 mainbernardin.py
 
 ## WINDOWS
 
+### Descargar esta madre
 Instala el git para windows we:
 
 [Pagina del git](https://git-scm.com/install/)
@@ -124,8 +125,25 @@ Ejecuta el main y wacha este pdo:
 py mainbernardin.py
 ```
 
+### Para la hanniela que no es colaborador del repo
+
+Abre el CMD we:
+
+Ejecuta Windows + r, escribe cmd y pulsa ENTER || Abre el buscador y busca simbolo del sistema y ejecutalo sin ser administrador.
+
+Metete al repo 
+
+```
+cd BERNARDITO
+```
+
+Ejecuta el script
+
+```
+actualizar.bat
+```
+
 * [Ir a las Características](#features)
-* [Ir a los Requisitos](#requirements)
 * [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
 * [Ir a Linux](#Linux)
 * [Ir a Windows](#Windows)
