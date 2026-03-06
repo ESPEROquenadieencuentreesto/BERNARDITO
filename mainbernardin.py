@@ -13,8 +13,16 @@ def main():
     
     sys.argv += ['-style', 'Fusion']
     app = QApplication(sys.argv)
-    apply_stylesheet(app, theme='dark_teal.xml')
-
+    app.setStyleSheet("""
+    QWidget {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-size: 13px;
+        }
+        QLabel {
+            color: #ffffff;
+        }
+    """)
     app.setWindowIcon(QIcon("calzoskiadulto.jpg"))
 
     # Conf de la ventana
