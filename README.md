@@ -87,7 +87,7 @@ pip install -r requirements.txt
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
 ```
-python3 mainbernardin.py
+python3 NetPulse.py
 ```
 
 ## WINDOWS
@@ -129,7 +129,7 @@ py -m pip install -r requirements.txt
 Ejecuta el main y wacha este pdo:
 
 ```
-py mainbernardin.py
+py NetPulse.py
 ```
 
 ### Actualizar el repo para la hanniela que no es colaborador del repo

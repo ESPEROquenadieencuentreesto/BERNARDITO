@@ -27,7 +27,7 @@ def main():
 
     # Conf de la ventana
     window = QWidget()
-    window.setWindowTitle('Bernardito Prueba 1')
+    window.setWindowTitle('NetPulse')
     window.setMinimumSize(500, 450)
     
 
