@@ -51,23 +51,23 @@ qt-material     2.17 o 2.17.+
 
 ## LINUX
 
-### Familia Debian - Ubuntu
+### Family Debian - Ubuntu
 ```
 sudo apt update
 sudo apt install git python3
 ```
 
-### Familia Fedora - Red Hat
+### Family Fedora - Red Hat
 ```
 sudo dnf install git python3
 ```
 
-### Familia Arch Linux - Manjaro - EndeavourOS - Garuda Linux- Artix Linux - SteamOS
+### Family Arch Linux - Manjaro - EndeavourOS - Garuda Linux- Artix Linux - SteamOS
 ```
 sudo pacman -S git python
 ```
 
-### Familia openSUSE
+### Family openSUSE
 ```
 sudo zypper install git python3
 ```
