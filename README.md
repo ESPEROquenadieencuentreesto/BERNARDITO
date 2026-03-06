@@ -27,6 +27,9 @@ Python     3.14.+
 duckdb     1.4.+
 
 
+shiboken   6.10.+
+
+
 numpy      2.4.+
 
 
@@ -58,7 +61,7 @@ cd BERNARDITO
 Instala las dependencias en chinga: 
 
 ```
-pip install PySide6 duckdb numpy scipy pyqtgraph qt-material
+pip install PySide6 duckdb shiboken6 numpy scipy pyqtgraph qt-material
 ```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
