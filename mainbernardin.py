@@ -13,7 +13,7 @@ def main():
     # Conf de la ventana
     window = QWidget()
     window.setWindowTitle('Bernardito Prueba 1')
-    window.setMinimumSize(800, 700)
+    window.setMinimumSize(500, 450)
     
     # Layout y Texto
     layout = QVBoxLayout()
