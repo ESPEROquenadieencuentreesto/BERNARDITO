@@ -20,32 +20,6 @@ APLICACION REAL SEGUN BERNI
 
 Administracion de redes.
 
-# *Requirements*
-
-Python     3.14.+
-
-
-duckdb     1.4.+
-
-
-shiboken   6.10.+
-
-
-numpy      2.4.+
-
-
-gcc        15.2.+
-
-
-pyqtgraph  0.14.0 o 0.14.+
-
-
-PySide6    6.10.+
-
-
-scipy      1.17.+
-
-qt-material     2.17 o 2.17.+
 
 # *HOW TO RUN THIS BULLSHIT*
 
@@ -101,7 +75,7 @@ cd BERNARDITO
 Instala las dependencias en chinga: 
 
 ```
-pip install PySide6 duckdb shiboken6 numpy scipy pyqtgraph qt-material
+pip install -r requirements.txt
 ```
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
@@ -141,7 +115,7 @@ cd BERNARDITO
 Instala las dependencias en chinga:
 
 ```
-py -m pip install PySide6 duckdb shiboken6 numpy scipy pyqtgraph qt-material
+py -m pip install -r requirements.txt
 ```
 
 Ejecuta el main y wacha este pdo:
