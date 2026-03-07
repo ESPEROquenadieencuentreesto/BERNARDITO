@@ -134,11 +134,15 @@ py PWGNetPulse.py
 
 ### Actualizar el repo para la hanniela que no es colaborador del repo
 
+### Hacer los siuientes pasos solo la primera vez:
 
 Metete al repo en tu explorador de archivos
 
 
 Saca el actualizar.bat de BERNARDITO a tu carpeta de usuario
+
+
+### Los siguientes si ya hiciste los primeros pasos la primera vez:
 
 
 Ejecuta Windows + r, escribe cmd y pulsa ENTER || Abre el buscador y busca simbolo del sistema y ejecutalo sin ser administrador.
