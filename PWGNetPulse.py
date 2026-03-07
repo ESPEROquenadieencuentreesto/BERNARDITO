@@ -10,7 +10,7 @@ USERS = {
 }
 
 TEMAS = {
-    "oscuro": { "bg": "#0d0d0d", "card": "#000000", "accent": "#ffffff", "text_dim": "#555555", "input_bg": "#1a1a1a"
+    "oscuro": { "bg": "#000000", "card": "#000000", "accent": "#ffffff", "text_dim": "#555555", "input_bg": "#1a1a1a"
     },
     "claro": { "bg": "#f0f0f0", "card": "#ffffff", "accent": "#000000", "text_dim": "#999999", "input_bg": "#e0e0e0"
     },
@@ -42,7 +42,7 @@ class LoginScreen(QWidget):
         cl.setSpacing(0)
 
         self.title = QLabel("PWGNetPulse")
-        self.title.setFont(QFont("Consolas", 20, QFont.Bold))
+        self.title.setFont(QFont("Consolas", 40, QFont.Bold))
         self.title.setAlignment(Qt.AlignCenter)
         self.title.setStyleSheet(f"color: #ffffff; border: none;")
         cl.addWidget(self.title)
@@ -50,7 +50,7 @@ class LoginScreen(QWidget):
         self.sub = QLabel("Inicia sesión para continuar")
         self.sub.setFont(QFont("Consolas", 9))
         self.sub.setAlignment(Qt.AlignCenter)
-        self.sub.setStyleSheet(f"color: #555555; border: none; margin-bottom: 32px;")
+        self.sub.setStyleSheet(f"color: #ffffff; border: none; margin-bottom: 32px;")
         cl.addWidget(self.sub)
 
         cl.addWidget(self._label("USUARIO"))
