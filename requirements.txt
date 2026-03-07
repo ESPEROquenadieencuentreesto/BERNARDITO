@@ -4,4 +4,3 @@ shiboken6
 numpy
 scipy
 pyqtgraph
-qt-material
