@@ -1,7 +1,10 @@
 # Mi primer proyecto pijes, esta madre de bernardito esta easy jeje
 
+![WhatsApp Image 2026-03-07 at 9 47 27 PM](https://github.com/user-attachments/assets/3193d445-6090-49c8-8dfc-b925fc1b1b30)
 
-![WhatsApp Image 2026-03-06 at 9 01 37 AM](https://github.com/user-attachments/assets/dca293d9-16ee-4107-8293-dc76bab27ecb)
+
+![WhatsApp Image 2026-03-07 at 9 47 28 PM](https://github.com/user-attachments/assets/265593bb-9e76-4587-82ef-50a95e5c15cc)
+
 
 * [Ir a las Características](#features)
 * [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
