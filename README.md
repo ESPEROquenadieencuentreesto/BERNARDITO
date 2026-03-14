@@ -111,7 +111,7 @@ Instala el git para windows we:
 
 [Pagina del git](https://git-scm.com/install/)
 
-Descarga la fuente we:
+Descarga e instala la fuente we:
 
 [Michroma font](https://fonts.google.com/specimen/Michroma)
 
@@ -184,5 +184,7 @@ actualizar.bat
 Waldo may que esta en mi equipo jeje
 
 Giovanni aunque casi nos condena a hacer integrales triples para el tambo alvrggg
+
+Hanniela por hacer debugging a la app 
 
 Su humilde servidor Pedrito jeje
