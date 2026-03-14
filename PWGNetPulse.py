@@ -10,9 +10,9 @@ USERS = {
 }
 
 TEMAS = {
-    "oscuro": { "bg": "#000000", "card": "#000000", "accent": "#ffffff", "text_dim": "#555555", "input_bg": "#1a1a1a"
+    "oscuro": { "bg": "#000000", "card": "#000000", "accent": "#ffffff", "text_dim": "#555555", "input_bg": "#1a1a1a", "label_fix": "#ffffff"
     },
-    "claro": { "bg": "#f0f0f0", "card": "#ffffff", "accent": "#000000", "text_dim": "#999999", "input_bg": "#e0e0e0"
+    "claro": { "bg": "#f0f0f0", "card": "#ffffff", "accent": "#000000", "text_dim": "#999999", "input_bg": "#e0e0e0", "label_fix": "#000000"
     },
 }
 tema_actual = "oscuro"
@@ -42,23 +42,25 @@ class LoginScreen(QWidget):
         cl.setSpacing(0)
 
         self.title = QLabel("PWGNetPulse")
-        self.title.setFont(QFont("Consolas", 40, QFont.Bold))
+        self.title.setFont(QFont("Michroma", QFont.Bold))
         self.title.setAlignment(Qt.AlignCenter)
-        self.title.setStyleSheet(f"color: #ffffff; border: none;")
+        self.title.setStyleSheet(f"color: #ffffff; border: none; font-size: 31px;")
         cl.addWidget(self.title)
 
         self.sub = QLabel("Inicia sesión para continuar")
         self.sub.setFont(QFont("Consolas", 9))
         self.sub.setAlignment(Qt.AlignCenter)
-        self.sub.setStyleSheet(f"color: #ffffff; border: none; margin-bottom: 32px;")
+        self.sub.setStyleSheet(f"color: #ffffff; border: none; margin-bottom: 45px;")
         cl.addWidget(self.sub)
 
-        cl.addWidget(self._label("USUARIO"))
+        self.lbl_usuario = self._label("USUARIO")
+        cl.addWidget(self.lbl_usuario)
         self.inp_user = self._input("tu_usuario")
-        cl.addWidget(self.inp_user)
+        cl.addWidget(self.inp_user) 
         cl.addSpacing(14)
 
-        cl.addWidget(self._label("CONTRASEÑA"))
+        self.lbl_pass = self._label("CONTRASEÑA")
+        cl.addWidget(self.lbl_pass)
         self.inp_pass = self._input("********", password=True)
         cl.addWidget(self.inp_pass)
         cl.addSpacing(8)
@@ -104,7 +106,7 @@ class LoginScreen(QWidget):
     def _label(self, text):
         lbl = QLabel(text)
         lbl.setFont(QFont("Consolas", 8, QFont.Bold))
-        lbl.setStyleSheet(f"color: #555555; border: none; margin-bottom: 4px; letter-spacing: 2px;")
+        lbl.setStyleSheet(f"color: #ffffff; border: none; margin-bottom: 4px; letter-spacing: 2px;")
         return lbl
 
     def _input(self, placeholder, password=False):
@@ -137,13 +139,15 @@ class LoginScreen(QWidget):
             self.lbl_error.setText("Usuario o contraseña incorrectos")
 
     def aplicar_tema(self, t):
-        self.card.setStyleSheet(f"""
-        QWidget {{ background-color: {t['card']}; border-radius: 14px; border: 1px solid {t['accent']}; }}
-        """)
-        self.title.setStyleSheet(f"color: {t['accent']}; border: none;")
-        self.sub.setStyleSheet(f"color: {t['text_dim']}; border: none; margin-bottom: 32px;")
+        self.card.setStyleSheet(f""" QWidget {{ background-color: {t['card']}; border-radius: 14px; border: 1px solid {t['accent']}; }} """)
+        self.title.setStyleSheet(f"color: {t['accent']}; border: none; font-size: 31px;")
+        self.sub.setStyleSheet(f"color: {t['accent']}; border: none; margin-bottom: 45px;")
         self.inp_user.setStyleSheet(self._input_style(t))
         self.inp_pass.setStyleSheet(self._input_style(t))
+        
+        color_label = f"color: {t['label_fix']}; border: none; margin-bottom: 4px; letter-spacing: 2px;"
+        self.lbl_usuario.setStyleSheet(color_label)
+        self.lbl_pass.setStyleSheet(color_label)
 
     def _input_style(self, t):
         return f"""
