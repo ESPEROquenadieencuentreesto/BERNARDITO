@@ -226,12 +226,16 @@ class MainWindow(QWidget):
 
 def main():
 
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    ruta_fuente = os.path.join(BASE_DIR, "Michroma-Regular.ttf")
-    if os.path.exists(ruta_fuente):
-        QFontDatabase.addApplicationFont(ruta_fuente)
-    else:
-        print(f"Advertencia: No se encontró la fuente en {ruta_fuente}")
+    try:
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        ruta_fuente = os.path.join(BASE_DIR, "Michroma-Regular.ttf")
+        
+        if os.path.exists(ruta_fuente):
+            QFontDatabase.addApplicationFont(ruta_fuente)
+        else:
+            print("Fuente no encontrada, usando fuente del sistema.")
+    except Exception as e:
+        print(f"Error cargando fuente: {e}")
 
     sys.argv += ['-style', 'Fusion']
     app = QApplication(sys.argv)
