@@ -189,6 +189,6 @@ Hanniela por hacer debugging a la app
 
 Su humilde servidor Pedrito jeje
 
-## Licencia
+# Licencia
 
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles.
