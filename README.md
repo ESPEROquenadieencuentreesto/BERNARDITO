@@ -71,6 +71,18 @@ emerge --ask dev-vcs/git dev-lang/python
 nix-env -iA nixpkgs.git nixpkgs.python3
 ```
 
+Descarga la fuente: 
+
+[Michroma font](https://fonts.google.com/specimen/Michroma)
+
+Extrae el archivo y obtén el archivo Michroma-Regular.ttf
+
+Ejecuta
+
+```
+mkdir -p ~/.local/share/fonts && cp Michroma-Regular.ttf ~/.local/share/fonts/
+```
+
 ### Luego clona el repo en fa we:
 
 ```
@@ -78,6 +90,7 @@ git clone https://github.com/ESPEROquenadieencuentreesto/BERNARDITO.git
 ```
 
 Metete a la carpeta del repo:
+
 ```
 cd BERNARDITO
 ```
@@ -87,6 +100,7 @@ Instala las dependencias en chinga:
 ```
 pip install -r requirements.txt
 ```
+
 Ejecuta el mainbernardin.py y vas q ver q rollo con el pollo.
 
 ```
@@ -99,6 +113,10 @@ python3 PWGNetPulse.py
 Instala el git para windows we:
 
 [Pagina del git](https://git-scm.com/install/)
+
+Descarga la fuente we:
+
+[Michroma font](https://fonts.google.com/specimen/Michroma)
 
 Abre el CMD we:
 
