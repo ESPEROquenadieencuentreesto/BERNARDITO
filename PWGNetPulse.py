@@ -2,7 +2,7 @@ import sys
 import platform
 import os
 from PySide6.QtWidgets import QApplication, QWidget, QStackedWidget,QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton
-from PySide6.QtGui import QFont, QIcon
+from PySide6.QtGui import QFont, QIcon, QFontDatabase
 from PySide6.QtCore import Qt
 
 USERS = {
@@ -225,6 +225,11 @@ class MainWindow(QWidget):
 
 
 def main():
+
+    ruta_fuente = os.path.join(os.path.dirname(__file__), "Michroma-Regular.ttf")
+    if os.path.exists(ruta_fuente):
+        QFontDatabase.addApplicationFont(ruta_fuente)
+
     sys.argv += ['-style', 'Fusion']
     app = QApplication(sys.argv)
     t = TEMAS[tema_actual]
