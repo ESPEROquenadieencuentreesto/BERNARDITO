@@ -1,7 +1,7 @@
 # Mi primer proyecto pijes, esta madre de bernardito esta easy jeje
 
-![Captura 1](Caps/cap1.png)
-![Captura 2](Caps/cap2.png)
+![Captura 1](Caps/cap2.png)
+![Captura 2](Caps/cap1.png)
 
 * [Ir a las Características](#features)
 * [Ir a instrucciones de Instalación](#how-to-run-this-bullshit)
