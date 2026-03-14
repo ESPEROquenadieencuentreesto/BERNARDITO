@@ -2,7 +2,7 @@ import sys
 import platform
 import os
 from PySide6.QtWidgets import QApplication, QWidget, QStackedWidget,QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton
-from PySide6.QtGui import QFont, QIcon, QFontDatabase
+from PySide6.QtGui import QFont, QIcon
 from PySide6.QtCore import Qt
 
 USERS = {
@@ -225,17 +225,6 @@ class MainWindow(QWidget):
 
 
 def main():
-
-    try:
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        ruta_fuente = os.path.join(BASE_DIR, "Michroma-Regular.ttf")
-        
-        if os.path.exists(ruta_fuente):
-            QFontDatabase.addApplicationFont(ruta_fuente)
-        else:
-            print("Fuente no encontrada, usando fuente del sistema.")
-    except Exception as e:
-        print(f"Error cargando fuente: {e}")
 
     sys.argv += ['-style', 'Fusion']
     app = QApplication(sys.argv)
